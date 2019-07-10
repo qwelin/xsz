@@ -1,0 +1,31 @@
+.author-group
+    width: 100%
+    overflow: hidden
+    padding: 16px 20px
+    .author-img
+        float: left
+        line-height: 60px
+        img
+            width: 50px
+            height: 50px
+            border-radius: 50%
+    .author-detail-group
+        float: right
+        .author-detail-head
+            .author-name
+                display: inline
+                margin-right: 20px
+                font-size: 25px
+            .author-status
+                display: inline
+                font-size: 15px
+        .author-desc
+            font-size: 10px
+
+.author-group:hover
+    transition: all 1s
+    background: rgba(255,193,193,.1)
+    .author-detail-group
+        .author-detail-head
+            .author-name
+                color: red

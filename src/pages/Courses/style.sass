@@ -1,0 +1,70 @@
+body
+    background: #323232
+
+.course-wrapper
+    width: 100%
+    height: 64px
+    // background: red
+    line-height: 64px
+    box-shadow: 0 3px 4px rgba(0,0,0,.1)
+    .course-nav
+        width: 1170px
+        margin: 0 auto
+        overflow: hidden
+        .title
+            float: left     
+            margin-right: 100px   
+            font-size: 24px    
+        .course-nav-list
+            float: left
+            li
+                float: left
+                margin-right: 40px
+                font-size: 18px
+
+                &.active
+                    font-weight: 600
+                a
+                    color: #888
+
+.coursesContainer
+    margin: 0 auto
+    margin-top: 20px
+    width: 1170px
+
+    .coursesList
+        display: flex   
+        flex-wrap: wrap
+
+        justify-content: space-between
+        .courseItem
+            width: 278px
+            height: 300px
+            padding: 5px 
+            // border: 1px solid #333
+            background: #fff
+            position: relative
+            margin-bottom: 20px 
+            .courseWrapper
+                img
+                    width: 268px
+                .courseInfo
+                    padding: 5px
+                    .courseTitle
+                        font-size: 18px
+                        margin: 5px 0
+                        color: #333
+                    .courseDesc
+                        font-size: 15px
+                    .courseItemFooter
+                        position: absolute
+                        bottom: 10px
+                        left: 10px
+                        right: 10px
+                        .howMany
+                            float: left
+                            font-size: 13px
+                        .howMach
+                            float: right
+                            font-size: 13px
+                            color: red
