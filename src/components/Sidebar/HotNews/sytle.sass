@@ -1,0 +1,35 @@
+.hot-news-group
+    width: 100%
+    height: 72px
+    overflow: hidden
+    padding: 10px 20px 80px 20px
+    border-bottom: 1px dotted #ccc
+    cursor: default
+    &:last-child 
+        border-bottom: none
+
+    .hot-news-left
+        float: left
+        width: 195px
+        overflow: hidden
+        .news-title
+            font-size: 16px
+            color: #212121
+            line-height: 25px
+        .news-tag
+            display: inline
+        .time
+            display: inline
+            float: right
+    .hot-news-right
+        float: right
+        img
+            width: 98px
+
+.hot-news-group:hover
+    background: rgba(255,193,193,.1)
+    transition: all 1s
+    .hot-news-left
+        .news-title
+            color: red
+            transition: all .5s
